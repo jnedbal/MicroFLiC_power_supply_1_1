@@ -77,8 +77,8 @@ U 1 1 54DADBD1
 P 4800 3150
 AR Path="/54DADBD1" Ref="C1"  Part="1" 
 AR Path="/54DAD8AC/54DADBD1" Ref="C1"  Part="1" 
-F 0 "C1" H 4800 3250 40  0000 L CNN
-F 1 "1u" H 4806 3065 40  0000 L CNN
+F 0 "C1" V 4650 3150 40  0000 C CNN
+F 1 "1u" V 4950 3150 40  0000 C CNN
 F 2 "Capacitors_SMD:C_0805" H 4838 3000 30  0001 C CNN
 F 3 "" H 4800 3150 60  0000 C CNN
 F 4 "GRM219R61H105KA73D" H 4800 3150 60  0001 C CNN "Part Number"
@@ -222,7 +222,7 @@ Wire Wire Line
 	7450 3050 7450 2900
 Connection ~ 7100 3050
 Wire Wire Line
-	7300 2450 8850 2450
+	7300 2450 10000 2450
 Wire Wire Line
 	7450 2450 7450 2600
 Connection ~ 7450 2450
@@ -281,11 +281,11 @@ Connection ~ 7700 3400
 Wire Wire Line
 	4500 3600 4500 4000
 Wire Wire Line
-	4500 4000 8300 4000
+	4500 4000 10000 4000
 Wire Wire Line
-	8300 4000 8300 2950
+	8300 2950 8300 4000
 Wire Wire Line
-	8150 3400 8850 3400
+	8150 3400 8300 3400
 Connection ~ 8300 3400
 $Comp
 L MOSFET_P Q1
@@ -319,13 +319,13 @@ Wire Wire Line
 Text Label 2350 2450 0    60   ~ 0
 V_IN
 Connection ~ 8300 2450
-Text Label 8800 3400 2    60   ~ 0
+Text Label 8950 4000 2    60   ~ 0
 MCU_OFF
 Text HLabel 2300 2450 0    60   Input ~ 0
 V_IN
 Text HLabel 2300 3150 0    60   Input ~ 0
 PUSHBUTTON
-Text HLabel 8850 3400 2    60   BiDi ~ 0
+Text HLabel 10000 4000 2    60   BiDi ~ 0
 MCU_OFF
 Text Notes 5700 2600 0    60   ~ 0
 Auto-Off
@@ -384,8 +384,8 @@ F 6 "1864589" H 6550 3400 60  0001 C CNN "Order Code"
 	-1   0    0    -1  
 $EndComp
 Text Notes 1950 5000 0    60   ~ 0
-Circuit provides over-current and polarity protection, in-rush current limiting, pushbutton ON/OFF (long press), and microcontroller soft-turn off capability\n\nDerived from:\nhttp://www.mosaic-industries.com/embedded-systems/microcontroller-projects/electronic-circuits/push-button-switch-turn-on/microcontroller-latching-on-off
-Text HLabel 8850 2450 2    60   Output ~ 0
+Circuit provides over-current and polarity protection, in-rush current limiting, pushbutton ON/OFF (long press), and microcontroller soft-turn off capability\n\nDerived from:\nhttp://www.mosaic-industries.com/embedded-systems/microcontroller-projects/electronic-circuits/push-button-switch-turn-on/inrush-current-limited-mosfet
+Text HLabel 10000 2450 2    60   Output ~ 0
 +12V
 Wire Wire Line
 	8300 2350 8300 2650
@@ -401,31 +401,62 @@ F 3 "" H 8300 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D1
-U 1 1 569070E8
+L D D2
+U 1 1 569E6D02
+P 6800 3050
+F 0 "D2" H 6800 2950 40  0000 C CNN
+F 1 "1N4148" H 6800 3150 40  0000 C CNN
+F 2 "Diodes_SMD:SOD-323" H 6800 3050 50  0001 C CNN
+F 3 "" H 6800 3050 50  0000 C CNN
+F 4 "1N4148WS" H 6800 3050 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 6800 3050 60  0001 C CNN "Manufacturer"
+F 6 "1466524" H 6800 3050 60  0001 C CNN "Field6"
+	1    6800 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D1
+U 1 1 569E7C5B
 P 4500 3450
-F 0 "D1" H 4500 3350 40  0000 C CNN
-F 1 "PMEG2020" H 4500 3550 40  0000 C CNN
+F 0 "D1" V 4450 3550 40  0000 L CNN
+F 1 "1N4148" V 4550 3550 40  0000 L CNN
 F 2 "Diodes_SMD:SOD-323" H 4500 3450 50  0001 C CNN
 F 3 "" H 4500 3450 50  0000 C CNN
-F 4 "PMEG2020AEA" H 4500 3450 60  0001 C CNN "Part Number"
-F 5 "NXP Semiconductors" H 4500 3450 60  0001 C CNN "Manufacturer"
-F 6 "8737940" H 4500 3450 60  0001 C CNN "Order Code"
+F 4 "1N4148WS" H 4500 3450 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 4500 3450 60  0001 C CNN "Manufacturer"
+F 6 "1466524" H 4500 3450 60  0001 C CNN "Field6"
 	1    4500 3450
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D2
-U 1 1 56907922
-P 6800 3050
-F 0 "D2" H 6800 2950 40  0000 C CNN
-F 1 "PMEG2020" H 6800 3150 40  0000 C CNN
-F 2 "Diodes_SMD:SOD-323" H 6800 3050 50  0001 C CNN
-F 3 "" H 6800 3050 50  0000 C CNN
-F 4 "PMEG2020AEA" H 6800 3050 60  0001 C CNN "Part Number"
-F 5 "NXP Semiconductors" H 6800 3050 60  0001 C CNN "Manufacturer"
-F 6 "8737940" H 6800 3050 60  0001 C CNN "Order Code"
-	1    6800 3050
-	-1   0    0    1   
+L R R10
+U 1 1 569E9A51
+P 8700 2800
+F 0 "R10" V 8780 2800 40  0000 C CNN
+F 1 "10k" V 8707 2801 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 8630 2800 30  0001 C CNN
+F 3 "" H 8700 2800 30  0000 C CNN
+F 4 "MCMR08X1002FTL" V 8700 2800 60  0001 C CNN "Part Number"
+F 5 "Multicomp" V 8700 2800 60  0001 C CNN "Manufacturer"
+F 6 "2073607" V 8700 2800 60  0001 C CNN "Order Code"
+	1    8700 2800
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8700 2950 8700 3000
+$Comp
+L GND #PWR033
+U 1 1 569E9A8F
+P 8700 3000
+F 0 "#PWR033" H 8700 2750 60  0001 C CNN
+F 1 "GND" H 8700 2850 60  0000 C CNN
+F 2 "" H 8700 3000 60  0000 C CNN
+F 3 "" H 8700 3000 60  0000 C CNN
+	1    8700 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2650 8700 2450
+Connection ~ 8700 2450
+Connection ~ 8300 4000
 $EndSCHEMATC
