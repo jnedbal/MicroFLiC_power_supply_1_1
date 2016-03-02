@@ -52,12 +52,17 @@ P 4650 2650
 AR Path="/528DE46E" Ref="C15"  Part="1" 
 AR Path="/54E097EB/528DE46E" Ref="C10"  Part="1" 
 F 0 "C10" H 4650 2750 40  0000 L CNN
-F 1 "47u/6.3V" H 4656 2565 40  0000 L CNN
+F 1 "47u/16V" H 4656 2565 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 4688 2500 30  0001 C CNN
 F 3 "" H 4650 2650 60  0000 C CNN
-F 4 "GRM32ER60J476ME20L" H 4650 2650 60  0001 C CNN "Part Number"
+F 4 "GRM32ER61C476ME15L" H 4650 2650 60  0001 C CNN "Part Number"
 F 5 "Murata" H 4650 2650 60  0001 C CNN "Manufacturer"
-F 6 "9527788" H 4650 2650 60  0001 C CNN "Order Code"
+F 6 "1210" H 4650 2650 60  0001 C CNN "Package"
+F 7 "Farnell" H 4650 2650 60  0001 C CNN "Supplier"
+F 8 "1735538" H 4650 2650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4650 2650 60  0001 C CNN "Alt. Supplier"
+F 10 "81-GRM32ER61C476ME15" H 4650 2650 60  0001 C CNN "Alt. Order Code"
+F 11 "47μF/16V X5R 1210 ceramic capacitor" H 4650 2650 60  0001 C CNN "Note"
 	1    4650 2650
 	1    0    0    -1  
 $EndComp
@@ -68,12 +73,17 @@ P 4950 2650
 AR Path="/528DE47B" Ref="C17"  Part="1" 
 AR Path="/54E097EB/528DE47B" Ref="C11"  Part="1" 
 F 0 "C11" H 4950 2750 40  0000 L CNN
-F 1 "47u/6.3V" H 4956 2565 40  0000 L CNN
+F 1 "47u/16V" H 4956 2565 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 4988 2500 30  0001 C CNN
 F 3 "" H 4950 2650 60  0000 C CNN
-F 4 "GRM32ER60J476ME20L" H 4950 2650 60  0001 C CNN "Part Number"
+F 4 "GRM32ER61C476ME15L" H 4950 2650 60  0001 C CNN "Part Number"
 F 5 "Murata" H 4950 2650 60  0001 C CNN "Manufacturer"
-F 6 "9527788" H 4950 2650 60  0001 C CNN "Order Code"
+F 6 "1210" H 4950 2650 60  0001 C CNN "Package"
+F 7 "Farnell" H 4950 2650 60  0001 C CNN "Supplier"
+F 8 "9527788" H 4950 2650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4950 2650 60  0001 C CNN "Alt. Supplier"
+F 10 "81-GRM32ER61C476ME15" H 4950 2650 60  0001 C CNN "Alt. Order Code"
+F 11 "47μF/16V X5R 1210 ceramic capacitor" H 4950 2650 60  0001 C CNN "Note"
 	1    4950 2650
 	1    0    0    -1  
 $EndComp
@@ -87,7 +97,12 @@ F 2 "jakub:IHLP-4040DZ-01" H 3950 2350 60  0001 C CNN
 F 3 "" H 3950 2350 60  0000 C CNN
 F 4 "IHLP4040DZER3R3M01" V 3950 2350 60  0001 C CNN "Part Number"
 F 5 "Vishay Dale" V 3950 2350 60  0001 C CNN "Manufacturer"
-F 6 "1547037" V 3950 2350 60  0001 C CNN "Order Code"
+F 6 "10.3mm×10.3mm" H 3950 2350 60  0001 C CNN "Package"
+F 7 "Farnell" H 3950 2350 60  0001 C CNN "Supplier"
+F 8 "1547037" V 3950 2350 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3950 2350 60  0001 C CNN "Alt. Supplier"
+F 10 "70-IHLP4040DZER3R3M0" H 3950 2350 60  0001 C CNN "Alt. Order Code"
+F 11 "3.3μH 10A low profile high current IHLP inductor" H 3950 2350 60  0001 C CNN "Note"
 	1    3950 2350
 	0    -1   -1   0   
 $EndComp
@@ -123,7 +138,12 @@ F 2 "Resistors_SMD:R_0805" V 4280 2700 30  0001 C CNN
 F 3 "" H 4350 2700 30  0000 C CNN
 F 4 "MCMR08X2202FTL" V 4350 2700 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 4350 2700 60  0001 C CNN "Manufacturer"
-F 6 "2073691" V 4350 2700 60  0001 C CNN "Order Code"
+F 6 "0805" H 4350 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 4350 2700 60  0001 C CNN "Supplier"
+F 8 "2073691" V 4350 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4350 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-22K-E3" H 4350 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "22kΩ/1% 0805 resistor" H 4350 2700 60  0001 C CNN "Note"
 	1    4350 2700
 	1    0    0    -1  
 $EndComp
@@ -137,7 +157,12 @@ F 2 "Resistors_SMD:R_0805" V 4280 3600 30  0001 C CNN
 F 3 "" H 4350 3600 30  0000 C CNN
 F 4 "MC01W080513K" V 4350 3600 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 4350 3600 60  0001 C CNN "Manufacturer"
-F 6 "9332995" V 4350 3600 60  0001 C CNN "Order Code"
+F 6 "0805" H 4350 3600 60  0001 C CNN "Package"
+F 7 "Farnell" H 4350 3600 60  0001 C CNN "Supplier"
+F 8 "9332995" V 4350 3600 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4350 3600 60  0001 C CNN "Alt. Supplier"
+F 10 "667-ERJ-6GEYJ302V" H 4350 3600 60  0001 C CNN "Alt. Order Code"
+F 11 "3kΩ/1% 0805 resistor" H 4350 3600 60  0001 C CNN "Note"
 	1    4350 3600
 	1    0    0    -1  
 $EndComp
@@ -159,12 +184,17 @@ P 3250 3550
 AR Path="/528DE584" Ref="C11"  Part="1" 
 AR Path="/54E097EB/528DE584" Ref="C8"  Part="1" 
 F 0 "C8" H 3250 3650 40  0000 L CNN
-F 1 "1u" H 3256 3465 40  0000 L CNN
+F 1 "1u/50V" H 3256 3465 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3288 3400 30  0001 C CNN
 F 3 "" H 3250 3550 60  0000 C CNN
 F 4 "GRM219R61H105KA73D" H 3250 3550 60  0001 C CNN "Part Number"
 F 5 "Murata" H 3250 3550 60  0001 C CNN "Manufacturer"
-F 6 "1845750" H 3250 3550 60  0001 C CNN "Order Code"
+F 6 "0805" H 3250 3550 60  0001 C CNN "Package"
+F 7 "Farnell" H 3250 3550 60  0001 C CNN "Supplier"
+F 8 "1845750" H 3250 3550 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3250 3550 60  0001 C CNN "Alt. Supplier"
+F 10 "81-GRM219R61H105KA3D" H 3250 3550 60  0001 C CNN "Alt. Order Code"
+F 11 "1μF/50V X5R 0805 ceramic capacitor" H 3250 3550 60  0001 C CNN "Note"
 	1    3250 3550
 	1    0    0    -1  
 $EndComp
@@ -178,7 +208,12 @@ F 2 "jakub:SO8_FDS6298" H 3450 2650 60  0001 C CNN
 F 3 "" H 3450 2650 60  0000 C CNN
 F 4 "IRF8721PBF" H 3450 2650 60  0001 C CNN "Part Number"
 F 5 "International Rectifier" H 3450 2650 60  0001 C CNN "Manufacturer"
-F 6 "1551902" H 3450 2650 60  0001 C CNN "Order Code"
+F 6 "SOIC-8" H 3450 2650 60  0001 C CNN "Package"
+F 7 "Farnell" H 3450 2650 60  0001 C CNN "Supplier"
+F 8 "1551902" H 3450 2650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3450 2650 60  0001 C CNN "Alt. Supplier"
+F 10 "942-IRF8721PBF" H 3450 2650 60  0001 C CNN "Alt. Order Code"
+F 11 "N-channel SOIC-8 MOSFET" H 3450 2650 60  0001 C CNN "Note"
 	1    3450 2650
 	1    0    0    -1  
 $EndComp
@@ -192,7 +227,12 @@ F 2 "jakub:SSOP-16(EP)" H 2400 2650 60  0001 C CNN
 F 3 "" H 2400 2650 60  0000 C CNN
 F 4 "ADP2381AREZ" H 2400 2650 60  0001 C CNN "Part Number"
 F 5 "Analog Devices" H 2400 2650 60  0001 C CNN "Manufacturer"
-F 6 "2112682" H 2400 2650 60  0001 C CNN "Order Code"
+F 6 "PowerPAD TSSOP-16" H 2400 2650 60  0001 C CNN "Package"
+F 7 "Farnell" H 2400 2650 60  0001 C CNN "Supplier"
+F 8 "2112682" H 2400 2650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2400 2650 60  0001 C CNN "Alt. Supplier"
+F 10 "584-ADP2381AREZ-R7" H 2400 2650 60  0001 C CNN "Alt. Order Code"
+F 11 "20V 6A synchronous step-down regulator with low-side driver" H 2400 2650 60  0001 C CNN "Note"
 	1    2400 2650
 	1    0    0    -1  
 $EndComp
@@ -230,7 +270,12 @@ F 2 "Capacitors_SMD:C_0805" H 3588 1900 30  0001 C CNN
 F 3 "" H 3550 2050 60  0000 C CNN
 F 4 "MC0805B104K250CT" H 3550 2050 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 3550 2050 60  0001 C CNN "Manufacturer"
-F 6 "1759166" H 3550 2050 60  0001 C CNN "Order Code"
+F 6 "0805" H 3550 2050 60  0001 C CNN "Package"
+F 7 "Farnell" H 3550 2050 60  0001 C CNN "Supplier"
+F 8 "1759166" H 3550 2050 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3550 2050 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012207098" H 3550 2050 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0805 ceramic capacitor" H 3550 2050 60  0001 C CNN "Note"
 	1    3550 2050
 	1    0    0    -1  
 $EndComp
@@ -255,7 +300,12 @@ F 2 "Resistors_SMD:R_0805" V 2730 4100 30  0001 C CNN
 F 3 "" H 2800 4100 30  0000 C CNN
 F 4 "MC01W0805182K" V 2800 4100 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 2800 4100 60  0001 C CNN "Manufacturer"
-F 6 "9333592" V 2800 4100 60  0001 C CNN "Order Code"
+F 6 "0805" H 2800 4100 60  0001 C CNN "Package"
+F 7 "Farnell" H 2800 4100 60  0001 C CNN "Supplier"
+F 8 "9333592" V 2800 4100 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2800 4100 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-82K-E3" H 2800 4100 60  0001 C CNN "Alt. Order Code"
+F 11 "82kΩ/1% 0805 resistor" H 2800 4100 60  0001 C CNN "Note"
 	1    2800 4100
 	0    -1   -1   0   
 $EndComp
@@ -269,9 +319,14 @@ F 0 "C6" H 2050 4200 40  0000 L CNN
 F 1 "680p" H 2056 4015 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2088 3950 30  0001 C CNN
 F 3 "" H 2050 4100 60  0000 C CNN
-F 4 "MCCA001064" H 2050 4100 60  0001 C CNN "Part Number"
+F 4 "MC0805B681K500CT" H 2050 4100 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 2050 4100 60  0001 C CNN "Manufacturer"
-F 6 "1856232" H 2050 4100 60  0001 C CNN "Order Code"
+F 6 "0805" H 2050 4100 60  0001 C CNN "Package"
+F 7 "Farnell" H 2050 4100 60  0001 C CNN "Supplier"
+F 8 "1759222" H 2050 4100 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2050 4100 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012207059" H 2050 4100 60  0001 C CNN "Alt. Order Code"
+F 11 "680pF/50V X7R 0805 ceramic capacitor" H 2050 4100 60  0001 C CNN "Note"
 	1    2050 4100
 	0    -1   -1   0   
 $EndComp
@@ -285,9 +340,14 @@ F 0 "C7" H 2400 4500 40  0000 L CNN
 F 1 "1p5" H 2406 4315 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2438 4250 30  0001 C CNN
 F 3 "" H 2400 4400 60  0000 C CNN
-F 4 "MCCA000309" H 2400 4400 60  0001 C CNN "Part Number"
+F 4 "MC0805N1R5C500CT" H 2400 4400 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 2400 4400 60  0001 C CNN "Manufacturer"
-F 6 "1759180" H 2400 4400 60  0001 C CNN "Order Code"
+F 6 "0805" H 2400 4400 60  0001 C CNN "Package"
+F 7 "Farnell" H 2400 4400 60  0001 C CNN "Supplier"
+F 8 "1759180" H 2400 4400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2400 4400 60  0001 C CNN "Alt. Supplier"
+F 10 "77-VJ0805A1R5BXAPBC" H 2400 4400 60  0001 C CNN "Alt. Order Code"
+F 11 "1.5pF/50V C0G(NP0) 0805 ceramic capacitor" H 2400 4400 60  0001 C CNN "Note"
 	1    2400 4400
 	0    -1   -1   0   
 $EndComp
@@ -301,7 +361,12 @@ F 2 "Resistors_SMD:R_0805" V 1230 2800 30  0001 C CNN
 F 3 "" H 1300 2800 30  0000 C CNN
 F 4 "MC01W0805182K" V 1300 2800 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 1300 2800 60  0001 C CNN "Manufacturer"
-F 6 "9333592" V 1300 2800 60  0001 C CNN "Order Code"
+F 6 "0805" H 1300 2800 60  0001 C CNN "Package"
+F 7 "Farnell" H 1300 2800 60  0001 C CNN "Supplier"
+F 8 "9333592" V 1300 2800 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 1300 2800 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-82K-E3" H 1300 2800 60  0001 C CNN "Alt. Order Code"
+F 11 "82kΩ/1% 0805 resistor" H 1300 2800 60  0001 C CNN "Note"
 	1    1300 2800
 	0    -1   -1   0   
 $EndComp
@@ -326,9 +391,14 @@ F 0 "C5" H 950 2600 40  0000 L CNN
 F 1 "22u/25V" H 956 2415 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 988 2350 30  0001 C CNN
 F 3 "" H 950 2500 60  0000 C CNN
-F 4 "GRM32ER61E226KE15L" H 950 2500 60  0001 C CNN "Part Number"
+F 4 "GRM32ER61E226ME15L" H 950 2500 60  0001 C CNN "Part Number"
 F 5 "Murata" H 950 2500 60  0001 C CNN "Manufacturer"
-F 6 "1828821" H 950 2500 60  0001 C CNN "Order Code"
+F 6 "1210" H 950 2500 60  0001 C CNN "Package"
+F 7 "Farnell" H 950 2500 60  0001 C CNN "Supplier"
+F 8 "1735539" H 950 2500 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 950 2500 60  0001 C CNN "Alt. Supplier"
+F 10 "81-GRM32ER61E226ME5L" H 950 2500 60  0001 C CNN "Alt. Order Code"
+F 11 "22μF/25V X5R 1210 ceramic capacitor" H 950 2500 60  0001 C CNN "Note"
 	1    950  2500
 	1    0    0    -1  
 $EndComp
@@ -342,7 +412,12 @@ F 2 "jakub:PDSO8" H 7550 2550 60  0001 C CNN
 F 3 "" H 7550 2550 60  0000 C CNN
 F 4 "TPS54428DDA" H 7550 2550 60  0001 C CNN "Part Number"
 F 5 "Texas Instruments" H 7550 2550 60  0001 C CNN "Manufacturer"
-F 6 "2078519" H 7550 2550 60  0001 C CNN "Order Code"
+F 6 "PowerPAD SOIC-8" H 7550 2550 60  0001 C CNN "Package"
+F 7 "Farnell" H 7550 2550 60  0001 C CNN "Supplier"
+F 8 "2078519" H 7550 2550 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 7550 2550 60  0001 C CNN "Alt. Supplier"
+F 10 "595-TPS54428DDA" H 7550 2550 60  0001 C CNN "Alt. Order Code"
+F 11 "4.5-18V input 4A synchronous step-down converter with eco-mode" H 7550 2550 60  0001 C CNN "Note"
 	1    7550 2550
 	1    0    0    -1  
 $EndComp
@@ -356,41 +431,14 @@ F 2 "Resistors_SMD:R_0805" V 6380 2350 30  0001 C CNN
 F 3 "" H 6450 2350 30  0000 C CNN
 F 4 "MCMR08X1002FTL" V 6450 2350 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 6450 2350 60  0001 C CNN "Manufacturer"
-F 6 "2073607" V 6450 2350 60  0001 C CNN "Order Code"
+F 6 "0805" H 6450 2350 60  0001 C CNN "Package"
+F 7 "Farnell" H 6450 2350 60  0001 C CNN "Supplier"
+F 8 "2073607" V 6450 2350 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 6450 2350 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-10K-E3" H 6450 2350 60  0001 C CNN "Alt. Order Code"
+F 11 "10kΩ/1% 0805 resistor" H 6450 2350 60  0001 C CNN "Note"
 	1    6450 2350
 	0    -1   -1   0   
-$EndComp
-$Comp
-L C C22
-U 1 1 528E1E17
-P 6100 2650
-AR Path="/528E1E17" Ref="C22"  Part="1" 
-AR Path="/54E097EB/528E1E17" Ref="C14"  Part="1" 
-F 0 "C14" H 6100 2750 40  0000 L CNN
-F 1 "22u/25V" H 6106 2565 40  0000 L CNN
-F 2 "Capacitors_SMD:C_1210" H 6138 2500 30  0001 C CNN
-F 3 "" H 6100 2650 60  0000 C CNN
-F 4 "GRM32ER61E226KE15L" H 6100 2650 60  0001 C CNN "Part Number"
-F 5 "Murata" H 6100 2650 60  0001 C CNN "Manufacturer"
-F 6 "1828821" H 6100 2650 60  0001 C CNN "Order Code"
-	1    6100 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C23
-U 1 1 528E1E29
-P 6300 3050
-AR Path="/528E1E29" Ref="C23"  Part="1" 
-AR Path="/54E097EB/528E1E29" Ref="C15"  Part="1" 
-F 0 "C15" H 6300 3150 40  0000 L CNN
-F 1 "1u" H 6306 2965 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 6338 2900 30  0001 C CNN
-F 3 "" H 6300 3050 60  0000 C CNN
-F 4 "GRM219R61H105KA73D" H 6300 3050 60  0001 C CNN "Part Number"
-F 5 "Murata" H 6300 3050 60  0001 C CNN "Manufacturer"
-F 6 "1845750" H 6300 3050 60  0001 C CNN "Order Code"
-	1    6300 3050
-	1    0    0    -1  
 $EndComp
 $Comp
 L C C24
@@ -402,9 +450,14 @@ F 0 "C16" H 6550 3150 40  0000 L CNN
 F 1 "8n2" H 6556 2965 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6588 2900 30  0001 C CNN
 F 3 "" H 6550 3050 60  0000 C CNN
-F 4 "MCCA000367" H 6550 3050 60  0001 C CNN "Part Number"
+F 4 "MC0805B822K500CT" H 6550 3050 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 6550 3050 60  0001 C CNN "Manufacturer"
-F 6 "1759245" H 6550 3050 60  0001 C CNN "Order Code"
+F 6 "0805" H 6550 3050 60  0001 C CNN "Package"
+F 7 "Farnell" H 6550 3050 60  0001 C CNN "Supplier"
+F 8 "1759245" H 6550 3050 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 6550 3050 60  0001 C CNN "Alt. Supplier"
+F 10 "581-08055C822K" H 6550 3050 60  0001 C CNN "Alt. Order Code"
+F 11 "8.2nF/50V X7R 0805 ceramic capacitor" H 6550 3050 60  0001 C CNN "Note"
 	1    6550 3050
 	1    0    0    -1  
 $EndComp
@@ -442,7 +495,12 @@ F 2 "Capacitors_SMD:C_0805" H 8738 2050 30  0001 C CNN
 F 3 "" H 8700 2200 60  0000 C CNN
 F 4 "MC0805B104K250CT" H 8700 2200 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 8700 2200 60  0001 C CNN "Manufacturer"
-F 6 "1759166" H 8700 2200 60  0001 C CNN "Order Code"
+F 6 "0805" H 8700 2200 60  0001 C CNN "Package"
+F 7 "Farnell" H 8700 2200 60  0001 C CNN "Supplier"
+F 8 "1759166" H 8700 2200 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 8700 2200 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012207098" H 8700 2200 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0805 ceramic capacitor" H 8700 2200 60  0001 C CNN "Note"
 	1    8700 2200
 	0    1    1    0   
 $EndComp
@@ -456,7 +514,12 @@ F 2 "jakub:IHLP-3232CZ-11" H 9300 2400 60  0001 C CNN
 F 3 "" H 9300 2400 60  0000 C CNN
 F 4 "IHLP3232DZER2R2M11" V 9300 2400 60  0001 C CNN "Part Number"
 F 5 "Vishay Dale" V 9300 2400 60  0001 C CNN "Manufacturer"
-F 6 "2056578" V 9300 2400 60  0001 C CNN "Order Code"
+F 6 "8.2mm×8.2mm" H 9300 2400 60  0001 C CNN "Package"
+F 7 "Farnell" H 9300 2400 60  0001 C CNN "Supplier"
+F 8 "2056578" V 9300 2400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 9300 2400 60  0001 C CNN "Alt. Supplier"
+F 10 "70-IHLP3232DZER2R2M1" H 9300 2400 60  0001 C CNN "Alt. Order Code"
+F 11 "2.2μH 14.5A low profile high current IHLP inductor" H 9300 2400 60  0001 C CNN "Note"
 	1    9300 2400
 	0    -1   -1   0   
 $EndComp
@@ -470,9 +533,14 @@ F 0 "C18" H 9700 2800 40  0000 L CNN
 F 1 "4p7" H 9706 2615 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 9738 2550 30  0001 C CNN
 F 3 "" H 9700 2700 60  0000 C CNN
-F 4 "MCMT18N4R7C100CT" H 9700 2700 60  0001 C CNN "Part Number"
+F 4 "MC0805N4R7C201CT" H 9700 2700 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 9700 2700 60  0001 C CNN "Manufacturer"
-F 6 "1856076" H 9700 2700 60  0001 C CNN "Order Code"
+F 6 "0805" H 9700 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 9700 2700 60  0001 C CNN "Supplier"
+F 8 "1855762" H 9700 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 9700 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "603-CC805CRNPO9BN4R7" H 9700 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "4.7pF/200V C0G(NP0) 0805 ceramic capacitor" H 9700 2700 60  0001 C CNN "Note"
 	1    9700 2700
 	1    0    0    -1  
 $EndComp
@@ -486,7 +554,12 @@ F 2 "Resistors_SMD:R_0805" V 9880 2700 30  0001 C CNN
 F 3 "" H 9950 2700 30  0000 C CNN
 F 4 "MC01W0805133K" V 9950 2700 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 9950 2700 60  0001 C CNN "Manufacturer"
-F 6 "9333053" V 9950 2700 60  0001 C CNN "Order Code"
+F 6 "0805" H 9950 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 9950 2700 60  0001 C CNN "Supplier"
+F 8 "9333053" V 9950 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 9950 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "667-ERJ-6ENF3302V" H 9950 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "33kΩ/1% 0805 resistor" H 9950 2700 60  0001 C CNN "Note"
 	1    9950 2700
 	1    0    0    -1  
 $EndComp
@@ -521,22 +594,6 @@ F 3 "" H 9700 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C35
-U 1 1 528E24FF
-P 10200 2700
-AR Path="/528E24FF" Ref="C35"  Part="1" 
-AR Path="/54E097EB/528E24FF" Ref="C19"  Part="1" 
-F 0 "C19" H 10200 2800 40  0000 L CNN
-F 1 "47u/6.3V" H 10206 2615 40  0000 L CNN
-F 2 "Capacitors_SMD:C_1210" H 10238 2550 30  0001 C CNN
-F 3 "" H 10200 2700 60  0000 C CNN
-F 4 "GRM32ER60J476ME20L" H 10200 2700 60  0001 C CNN "Part Number"
-F 5 "Murata" H 10200 2700 60  0001 C CNN "Manufacturer"
-F 6 "9527788" H 10200 2700 60  0001 C CNN "Order Code"
-	1    10200 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR044
 U 1 1 528E25C2
 P 10200 3150
@@ -568,7 +625,12 @@ F 2 "Resistors_SMD:R_0805" V 1480 5950 30  0001 C CNN
 F 3 "" H 1550 5950 30  0000 C CNN
 F 4 "MCSR08X2703FTL" V 1550 5950 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 1550 5950 60  0001 C CNN "Manufacturer"
-F 6 "2074426" V 1550 5950 60  0001 C CNN "Order Code"
+F 6 "0805" H 1550 5950 60  0001 C CNN "Package"
+F 7 "Farnell" H 1550 5950 60  0001 C CNN "Supplier"
+F 8 "2074426" V 1550 5950 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 1550 5950 60  0001 C CNN "Alt. Supplier"
+F 10 "667-ERJ-6ENF4700V" H 1550 5950 60  0001 C CNN "Alt. Order Code"
+F 11 "470Ω/1% 0805 resistor" H 1550 5950 60  0001 C CNN "Note"
 	1    1550 5950
 	1    0    0    -1  
 $EndComp
@@ -595,12 +657,17 @@ L BATTERY BT1
 U 1 1 53023F42
 P 1550 6600
 F 0 "BT1" H 1550 6800 50  0000 C CNN
-F 1 "3V LiMnO2" H 1550 6410 50  0000 C CNN
+F 1 "3V LiMnO₂" H 1550 6410 50  0000 C CNN
 F 2 "jakub:ML2016" H 1550 6600 60  0001 C CNN
 F 3 "ML2016.pdf" H 1550 6600 60  0001 C CNN
 F 4 "ML2016 T6" H 1550 6600 60  0001 C CNN "Part Number"
 F 5 "Maxell" H 1550 6600 60  0001 C CNN "Manufacturer"
-F 6 "3031962" H 1550 6600 60  0001 C CNN "Order Code"
+F 6 "ø20mm" H 1550 6600 60  0001 C CNN "Package"
+F 7 "Farnell" H 1550 6600 60  0001 C CNN "Supplier"
+F 8 "3031962" H 1550 6600 60  0001 C CNN "Order Code"
+F 9 "N/A" H 1550 6600 60  0001 C CNN "Alt. Supplier"
+F 10 "N/A" H 1550 6600 60  0001 C CNN "Alt. Order Code"
+F 11 "Horizontal lithium manganese dioxide rechargeable battery" H 1550 6600 60  0001 C CNN "Note"
 	1    1550 6600
 	0    1    1    0   
 $EndComp
@@ -680,7 +747,12 @@ F 2 "SMD_Packages:SOT-223" H 5500 5850 40  0000 C CNN
 F 3 "" H 5500 5750 60  0000 C CNN
 F 4 "AP1117E33G-13" H 5500 5750 60  0001 C CNN "Part Number"
 F 5 "Diodes" H 5500 5750 60  0001 C CNN "Manufacturer"
-F 6 "1825291" H 5500 5750 60  0001 C CNN "Order Code"
+F 6 "SOT-223" H 5500 5750 60  0001 C CNN "Package"
+F 7 "Farnell" H 5500 5750 60  0001 C CNN "Supplier"
+F 8 "1825291" H 5500 5750 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5500 5750 60  0001 C CNN "Alt. Supplier"
+F 10 "621-AP1117E33G-13" H 5500 5750 60  0001 C CNN "Alt. Order Code"
+F 11 "3.3V linear voltage regulator" H 5500 5750 60  0001 C CNN "Note"
 	1    5500 5750
 	1    0    0    -1  
 $EndComp
@@ -694,7 +766,12 @@ F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 6038 5800 30  0001
 F 3 "" H 6000 5950 60  0000 C CNN
 F 4 "T55A106M010C0200" H 6000 5950 60  0001 C CNN "Part Number"
 F 5 "Vishay" H 6000 5950 60  0001 C CNN "Manufacturer"
-F 6 "2455906" H 6000 5950 60  0001 C CNN "Order Code"
+F 6 "case A" H 6000 5950 60  0001 C CNN "Package"
+F 7 "Farnell" H 6000 5950 60  0001 C CNN "Supplier"
+F 8 "2455906" H 6000 5950 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 6000 5950 60  0001 C CNN "Alt. Supplier"
+F 10 "74-T55A106M010C0200" H 6000 5950 60  0001 C CNN "Alt. Order Code"
+F 11 "10μF/10V/0.2Ω ESR case A tantalum capacitor" H 6000 5950 60  0001 C CNN "Note"
 	1    6000 5950
 	1    0    0    -1  
 $EndComp
@@ -708,7 +785,12 @@ F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 5038 5800 30  0001
 F 3 "" H 5000 5950 60  0000 C CNN
 F 4 "T55A106M010C0200" H 5000 5950 60  0001 C CNN "Part Number"
 F 5 "Vishay" H 5000 5950 60  0001 C CNN "Manufacturer"
-F 6 "2455906" H 5000 5950 60  0001 C CNN "Order Code"
+F 6 "case A" H 5000 5950 60  0001 C CNN "Package"
+F 7 "Farnell" H 5000 5950 60  0001 C CNN "Supplier"
+F 8 "2455906" H 5000 5950 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5000 5950 60  0001 C CNN "Alt. Supplier"
+F 10 "74-T55A106M010C0200" H 5000 5950 60  0001 C CNN "Alt. Order Code"
+F 11 "10μF/10V/0.2Ω ESR case A tantalum capacitor" H 5000 5950 60  0001 C CNN "Note"
 	1    5000 5950
 	1    0    0    -1  
 $EndComp
@@ -1036,4 +1118,61 @@ Wire Wire Line
 	1100 5650 950  5650
 Wire Wire Line
 	1550 5800 1550 5650
+$Comp
+L C C14
+U 1 1 56D77233
+P 6100 2650
+F 0 "C14" H 6100 2750 40  0000 L CNN
+F 1 "22u/25V" H 6106 2565 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 6138 2500 30  0001 C CNN
+F 3 "" H 6100 2650 60  0000 C CNN
+F 4 "GRM32ER61E226ME15L" H 6100 2650 60  0001 C CNN "Part Number"
+F 5 "Murata" H 6100 2650 60  0001 C CNN "Manufacturer"
+F 6 "1210" H 6100 2650 60  0001 C CNN "Package"
+F 7 "Farnell" H 6100 2650 60  0001 C CNN "Supplier"
+F 8 "1735539" H 6100 2650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 6100 2650 60  0001 C CNN "Alt. Supplier"
+F 10 "81-GRM32ER61E226ME5L" H 6100 2650 60  0001 C CNN "Alt. Order Code"
+F 11 "22μF/25V X5R 1210 ceramic capacitor" H 6100 2650 60  0001 C CNN "Note"
+	1    6100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 56D77745
+P 6300 3050
+F 0 "C15" H 6300 3150 40  0000 L CNN
+F 1 "1u/50V" H 6306 2965 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6338 2900 30  0001 C CNN
+F 3 "" H 6300 3050 60  0000 C CNN
+F 4 "GRM219R61H105KA73D" H 6300 3050 60  0001 C CNN "Part Number"
+F 5 "Murata" H 6300 3050 60  0001 C CNN "Manufacturer"
+F 6 "0805" H 6300 3050 60  0001 C CNN "Package"
+F 7 "Farnell" H 6300 3050 60  0001 C CNN "Supplier"
+F 8 "1845750" H 6300 3050 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 6300 3050 60  0001 C CNN "Alt. Supplier"
+F 10 "81-GRM219R61H105KA3D" H 6300 3050 60  0001 C CNN "Alt. Order Code"
+F 11 "1μF/50V X5R 0805 ceramic capacitor" H 6300 3050 60  0001 C CNN "Note"
+	1    6300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C19
+U 1 1 56D79957
+P 10200 2700
+F 0 "C19" H 10200 2800 40  0000 L CNN
+F 1 "47u/16V" H 10206 2615 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 10238 2550 30  0001 C CNN
+F 3 "" H 10200 2700 60  0000 C CNN
+F 4 "GRM32ER61C476ME15L" H 10200 2700 60  0001 C CNN "Part Number"
+F 5 "Murata" H 10200 2700 60  0001 C CNN "Manufacturer"
+F 6 "1210" H 10200 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 10200 2700 60  0001 C CNN "Supplier"
+F 8 "9527788" H 10200 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 10200 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "81-GRM32ER61C476ME15" H 10200 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "47μF/16V X5R 1210 ceramic capacitor" H 10200 2700 60  0001 C CNN "Note"
+	1    10200 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
