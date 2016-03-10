@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_power_supply_1_1-cache
+LIBS:MicroFLiC_power_supply-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -68,7 +68,7 @@ $Sheet
 S 2550 1100 1850 1350
 U 54DAD8AC
 F0 "electronicSwitch" 60
-F1 "electronicSwitch_1_1.sch" 60
+F1 "electronicSwitch.sch" 60
 F2 "V_IN" I L 2550 1400 60 
 F3 "PUSHBUTTON" I L 2550 2150 60 
 F4 "MCU_OFF" B R 4400 2150 60 
@@ -150,7 +150,7 @@ $Sheet
 S 2550 3600 1850 2200
 U 54E097EB
 F0 "Power Supply" 60
-F1 "PowerSupply_1_1.sch" 60
+F1 "PowerSupply.sch" 60
 F2 "+5VP" O R 4400 5000 60 
 F3 "+3V3" O R 4400 5200 60 
 F4 "+2.5V" O R 4400 5400 60 

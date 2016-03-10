@@ -1,8 +1,8 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.1-3.201512221402+6198~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2-4+6225~38~ubuntu14.04.1-stable)
 
   (general
     (links 140)
-    (no_connects 2)
+    (no_connects 0)
     (area 100.025999 100.025999 149.910001 149.910001)
     (thickness 1.6)
     (drawings 70)
@@ -469,7 +469,7 @@
     (fp_text reference BT1 (at 8.636 -8.128 360) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value "3V LiMnO2" (at 10.16 -9.652 180) (layer B.SilkS)
+    (fp_text value "3V LiMnO₂" (at 10.16 -9.652 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user + (at 7.62 0 180) (layer B.SilkS)
@@ -556,7 +556,7 @@
     (fp_text reference P1 (at -1.27 -5.588 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value BARREL_JACK (at -5.08 5.588 270) (layer F.Fab) hide
+    (fp_text value "DC jack" (at -5.08 5.588 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -7.112 -4.318) (end -7.874 -4.318) (layer F.SilkS) (width 0.15))
@@ -585,7 +585,7 @@
     (fp_text reference P2 (at 5.715 0 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value CONN_02X03 (at -5.715 0 90) (layer F.SilkS) hide
+    (fp_text value "6-way Micro-MaTch" (at -5.715 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -4.85 -1.016) (end -4.35 -1.016) (layer F.SilkS) (width 0.3))
@@ -623,7 +623,7 @@
     (fp_text reference P6 (at -1.016 7.62 270) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value JUMPER3 (at 0 -3.1 270) (layer F.Fab) hide
+    (fp_text value "1x3 header strip" (at 0 -3.1 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 6.85) (layer F.CrtYd) (width 0.05))
@@ -656,7 +656,7 @@
     (fp_text reference SW1 (at 5.588 -2.032) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SW_PUSH_RA (at 0 3.175) (layer F.Fab) hide
+    (fp_text value "Tactile switch R/A" (at 0 3.175) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.2 -8.15) (end 1.2 -8.15) (layer F.SilkS) (width 0.15))
@@ -751,12 +751,12 @@
     (at 116.078 133.604 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
-    (path /54E097EB/528E1E29)
+    (path /54E097EB/56D77745)
     (attr smd)
     (fp_text reference C15 (at 2.54 -1.016 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value 1u (at 0 2.1 270) (layer F.Fab) hide
+    (fp_text value 1u/50V (at 0 2.1 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.8 -1) (end 1.8 -1) (layer F.CrtYd) (width 0.05))
@@ -809,12 +809,12 @@
     (at 110.998 135.128)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
-    (path /54E097EB/528E24FF)
+    (path /54E097EB/56D79957)
     (attr smd)
     (fp_text reference C19 (at -3.81 0) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value 47u/6.3V (at 0 2.7) (layer F.Fab) hide
+    (fp_text value 47u/16V (at 0 2.7) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1.6) (end 2.3 -1.6) (layer F.CrtYd) (width 0.05))
@@ -867,7 +867,7 @@
     (at 109.982 126.492 270)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
-    (path /54E097EB/528E1E17)
+    (path /54E097EB/56D77233)
     (attr smd)
     (fp_text reference C14 (at -2.794 0 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
@@ -930,7 +930,7 @@
     (fp_text reference C1 (at -2.159 0 270) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.11)))
     )
-    (fp_text value 1u (at 0 2.1 180) (layer F.Fab) hide
+    (fp_text value 1u/50V (at 0 2.1 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.8 -1) (end 1.8 -1) (layer F.CrtYd) (width 0.05))
@@ -1017,7 +1017,7 @@
     (fp_text reference C4 (at 2.54 0) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value 10u/25V (at 0 2.1) (layer F.Fab) hide
+    (fp_text value 4u7/25V (at 0 2.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.8 -1) (end 1.8 -1) (layer F.CrtYd) (width 0.05))
@@ -1189,7 +1189,7 @@
     (fp_text reference C8 (at 0.508 1.524) (layer B.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)) (justify mirror))
     )
-    (fp_text value 1u (at 0 -2.1) (layer B.Fab) hide
+    (fp_text value 1u/50V (at 0 -2.1) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.8 1) (end 1.8 1) (layer B.CrtYd) (width 0.05))
@@ -1247,7 +1247,7 @@
     (fp_text reference C10 (at 3.048 0 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value 47u/6.3V (at 0 2.7 270) (layer F.Fab) hide
+    (fp_text value 47u/16V (at 0 2.7 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1.6) (end 2.3 -1.6) (layer F.CrtYd) (width 0.05))
@@ -1276,7 +1276,7 @@
     (fp_text reference C11 (at 3.048 0 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value 47u/6.3V (at 0 2.7 270) (layer F.Fab) hide
+    (fp_text value 47u/16V (at 0 2.7 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.3 -1.6) (end 2.3 -1.6) (layer F.CrtYd) (width 0.05))
@@ -2062,7 +2062,7 @@
     (fp_text reference P3 (at 2.032 33.528) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.11)))
     )
-    (fp_text value Socket_1x14 (at 0 -3.1) (layer F.Fab) hide
+    (fp_text value "1x14 socket strip" (at 0 -3.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 34.8) (layer F.CrtYd) (width 0.05))
@@ -2119,7 +2119,7 @@
     (fp_text reference P4 (at -2.54 -3.556) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.11)) (justify mirror))
     )
-    (fp_text value Socket_2x2 (at 0 3.1) (layer B.Fab) hide
+    (fp_text value "2x2 socket strip" (at 0 3.1) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.55 1.55) (end -1.55 0) (layer B.SilkS) (width 0.15))
