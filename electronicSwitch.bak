@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_power_supply_1_1-cache
+LIBS:MicroFLiC_power_supply-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

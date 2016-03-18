@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/jakub/KiCAD/MicroFLiC_power_supply_1_1/MicroFLiC_power_supply_1_1.sch</source>
-    <date>Wed 02 Mar 2016 14:34:02 GMT</date>
+    <source>/home/jakub/KiCAD/MicroFLiC_power_supply_1_1/MicroFLiC_power_supply.sch</source>
+    <date>Fri 18 Mar 2016 20:18:26 GMT</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -10,7 +10,7 @@
         <company>King's College London</company>
         <rev>1.2</rev>
         <date>18 Jun 2014</date>
-        <source>MicroFLiC_power_supply_1_1.sch</source>
+        <source>MicroFLiC_power_supply.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -23,7 +23,7 @@
         <company/>
         <rev/>
         <date/>
-        <source>electronicSwitch_1_1.sch</source>
+        <source>electronicSwitch.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -36,7 +36,7 @@
         <company>King's College London</company>
         <rev>1.2</rev>
         <date>18 Jun 2014</date>
-        <source>PowerSupply_1_1.sch</source>
+        <source>PowerSupply.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -75,7 +75,7 @@
         <field name="Alt. Order Code">506-FSMRA3JH</field>
         <field name="Note">Right-angle tactile switch</field>
       </fields>
-      <libsource lib="MicroFLiC_power_supply_1_1-cache" part="SW_PUSH_RA"/>
+      <libsource lib="MicroFLiC_power_supply-cache" part="SW_PUSH_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54DC773E</tstamp>
     </comp>
@@ -118,7 +118,7 @@
       <footprint>LEDs:LED-1206</footprint>
       <fields>
         <field name="Part Number">HSMY-C150</field>
-        <field name="Manufacturer">Avago</field>
+        <field name="Manufacturer">Croadcom</field>
         <field name="Package">1206</field>
         <field name="Supplier">Farnell</field>
         <field name="Order Code">2497382</field>
@@ -231,7 +231,7 @@
       <footprint>LEDs:LED-1206</footprint>
       <fields>
         <field name="Part Number">HSMY-C150</field>
-        <field name="Manufacturer">Avago</field>
+        <field name="Manufacturer">Broadcom</field>
         <field name="Package">1206</field>
         <field name="Supplier">Farnell</field>
         <field name="Order Code">2497382</field>
@@ -248,7 +248,7 @@
       <footprint>LEDs:LED-1206</footprint>
       <fields>
         <field name="Part Number">HSMY-C150</field>
-        <field name="Manufacturer">Avago</field>
+        <field name="Manufacturer">Broadcom</field>
         <field name="Package">1206</field>
         <field name="Supplier">Farnell</field>
         <field name="Order Code">2497382</field>
@@ -265,7 +265,7 @@
       <footprint>LEDs:LED-1206</footprint>
       <fields>
         <field name="Part Number">HSMY-C150</field>
-        <field name="Manufacturer">Avago</field>
+        <field name="Manufacturer">Broadcom</field>
         <field name="Package">1206</field>
         <field name="Supplier">Farnell</field>
         <field name="Order Code">2497382</field>
@@ -477,7 +477,7 @@
         <field name="Alt. Order Code">78-SI2369DS-T1-GE3</field>
         <field name="Note">P-channel SOT-23 MOSFET</field>
       </fields>
-      <libsource lib="MicroFLiC_power_supply_1_1-cache" part="MOSFET_P"/>
+      <libsource lib="MicroFLiC_power_supply-cache" part="MOSFET_P"/>
       <sheetpath names="/electronicSwitch/" tstamps="/54DAD8AC/"/>
       <tstamp>54DB03D8</tstamp>
     </comp>
@@ -511,7 +511,7 @@
         <field name="Alt. Order Code">781-SI2314EDS-E3</field>
         <field name="Note">P-channel SOT-23 MOSFET</field>
       </fields>
-      <libsource lib="MicroFLiC_power_supply_1_1-cache" part="MOSFET_P"/>
+      <libsource lib="MicroFLiC_power_supply-cache" part="MOSFET_P"/>
       <sheetpath names="/electronicSwitch/" tstamps="/54DAD8AC/"/>
       <tstamp>54DAA696</tstamp>
     </comp>
@@ -528,13 +528,13 @@
         <field name="Alt. Order Code">781-SI2314EDS-E3</field>
         <field name="Note">N-channel SOT-23 MOSFET</field>
       </fields>
-      <libsource lib="MicroFLiC_power_supply_1_1-cache" part="MOSFET_N"/>
+      <libsource lib="MicroFLiC_power_supply-cache" part="MOSFET_N"/>
       <sheetpath names="/electronicSwitch/" tstamps="/54DAD8AC/"/>
       <tstamp>54DABBF6</tstamp>
     </comp>
     <comp ref="D2">
       <value>1N4148</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>jakub:SOD-323</footprint>
       <fields>
         <field name="Part Number">1N4148WS</field>
         <field name="Manufacturer">Multicomp</field>
@@ -551,7 +551,7 @@
     </comp>
     <comp ref="D1">
       <value>1N4148</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>jakub:SOD-323</footprint>
       <fields>
         <field name="Part Number">1N4148WS</field>
         <field name="Manufacturer">Multicomp</field>
@@ -698,7 +698,7 @@
         <field name="Alt. Order Code">942-IRF8721PBF</field>
         <field name="Note">N-channel SOIC-8 MOSFET</field>
       </fields>
-      <libsource lib="MicroFLiC_power_supply_1_1-cache" part="MOSFET_N"/>
+      <libsource lib="MicroFLiC_power_supply-cache" part="MOSFET_N"/>
       <sheetpath names="/Power Supply/" tstamps="/54E097EB/"/>
       <tstamp>528DF1A2</tstamp>
     </comp>
@@ -988,7 +988,7 @@
         <field name="Alt. Order Code">N/A</field>
         <field name="Note">Horizontal lithium manganese dioxide rechargeable battery</field>
       </fields>
-      <libsource lib="MicroFLiC_power_supply_1_1-cache" part="BATTERY"/>
+      <libsource lib="MicroFLiC_power_supply-cache" part="BATTERY"/>
       <sheetpath names="/Power Supply/" tstamps="/54E097EB/"/>
       <tstamp>53023F42</tstamp>
     </comp>
@@ -1022,7 +1022,7 @@
         <field name="Alt. Order Code">74-T55A106M010C0200</field>
         <field name="Note">10μF/10V/0.2Ω ESR case A tantalum capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_power_supply_1_1-cache" part="CP2"/>
+      <libsource lib="MicroFLiC_power_supply-cache" part="CP2"/>
       <sheetpath names="/Power Supply/" tstamps="/54E097EB/"/>
       <tstamp>54E0DD44</tstamp>
     </comp>
@@ -1039,13 +1039,13 @@
         <field name="Alt. Order Code">74-T55A106M010C0200</field>
         <field name="Note">10μF/10V/0.2Ω ESR case A tantalum capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_power_supply_1_1-cache" part="CP2"/>
+      <libsource lib="MicroFLiC_power_supply-cache" part="CP2"/>
       <sheetpath names="/Power Supply/" tstamps="/54E097EB/"/>
       <tstamp>54E0DDAD</tstamp>
     </comp>
     <comp ref="D3">
       <value>1N4148</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>jakub:SOD-323</footprint>
       <fields>
         <field name="Part Number">1N4148WS</field>
         <field name="Manufacturer">Multicomp</field>
@@ -1152,7 +1152,7 @@
         <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MicroFLiC_power_supply_1_1-cache" part="BATTERY">
+    <libpart lib="MicroFLiC_power_supply-cache" part="BATTERY">
       <fields>
         <field name="Reference">BT</field>
         <field name="Value">BATTERY</field>
@@ -1265,7 +1265,7 @@
         <pin num="6" name="P6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MicroFLiC_power_supply_1_1-cache" part="CP2">
+    <libpart lib="MicroFLiC_power_supply-cache" part="CP2">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -1376,7 +1376,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MicroFLiC_power_supply_1_1-cache" part="MOS_N">
+    <libpart lib="MicroFLiC_power_supply-cache" part="MOS_N">
       <aliases>
         <alias>MOSFET_N</alias>
       </aliases>
@@ -1390,7 +1390,7 @@
         <pin num="S" name="S" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MicroFLiC_power_supply_1_1-cache" part="MOS_P">
+    <libpart lib="MicroFLiC_power_supply-cache" part="MOS_P">
       <aliases>
         <alias>MOSFET_P</alias>
       </aliases>
@@ -1419,7 +1419,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MicroFLiC_power_supply_1_1-cache" part="SW_PUSH_RA">
+    <libpart lib="MicroFLiC_power_supply-cache" part="SW_PUSH_RA">
       <fields>
         <field name="Reference">SW</field>
         <field name="Value">SW_PUSH_RA</field>
@@ -1450,20 +1450,20 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="MicroFLiC_power_supply-cache">
+      <uri>/home/jakub/KiCAD/MicroFLiC_power_supply_1_1/MicroFLiC_power_supply-cache.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
-    <library logical="MicroFLiC_power_supply_1_1-cache">
-      <uri>/home/jakub/KiCAD/MicroFLiC_power_supply_1_1/MicroFLiC_power_supply_1_1-cache.lib</uri>
     </library>
   </libraries>
   <nets>

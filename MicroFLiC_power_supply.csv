@@ -11,8 +11,8 @@ C4 ,1,4u7/25V,Capacitors_SMD:C_0805,,GRM21BR61E475MA12L,Murata,0805,Farnell,2362
 C14 C5 ,2,22u/25V,Capacitors_SMD:C_1210,,GRM32ER61E226ME15L,Murata,1210,Farnell,1735539,Mouser,81-GRM32ER61E226ME5L,22μF/25V X5R 1210 ceramic capacitor
 C6 ,1,680p,Capacitors_SMD:C_0805,,MC0805B681K500CT,Multicomp,0805,Farnell,1759222,Mouser,710-885012207059,680pF/50V X7R 0805 ceramic capacitor
 C7 ,1,1p5,Capacitors_SMD:C_0805,,MC0805N1R5C500CT,Multicomp,0805,Farnell,1759180,Mouser,77-VJ0805A1R5BXAPBC,1.5pF/50V C0G(NP0) 0805 ceramic capacitor
-D1 D2 D3 ,3,1N4148,Diodes_SMD:SOD-323,,1N4148WS,Multicomp,SOD-323,Farnell,1466524,Mouser,512-1N4148WS,Small signal SOD-323 diode
-D4 D5 D6 D7 ,4,LED,LEDs:LED-1206,,HSMY-C150,Avago,1206,Farnell,2497382,Mouser,630-HSMY-C150,Yellow 1206 LED
+D1 D2 D3 ,3,1N4148,jakub:SOD-323,,1N4148WS,Multicomp,SOD-323,Farnell,1466524,Mouser,512-1N4148WS,Small signal SOD-323 diode
+D4 D5 D6 D7 ,4,LED,LEDs:LED-1206,,HSMY-C150,Croadcom,1206,Farnell,2497382,Mouser,630-HSMY-C150,Yellow 1206 LED
 F1 ,1,F5A,Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering,,MC12CF 005,Multicomp,1206,Farnell,1841033,Mouser,530-C1Q5,Fast blow 5 A fuse
 L1 ,1,3.3uH,jakub:IHLP-4040DZ-01,,IHLP4040DZER3R3M01,Vishay Dale,10.3mm×10.3mm,Farnell,1547037,Mouser,70-IHLP4040DZER3R3M0,3.3μH 10A low profile high current IHLP inductor
 L5 ,1,2.2uH,jakub:IHLP-3232CZ-11,,IHLP3232DZER2R2M11,Vishay Dale,8.2mm×8.2mm,Farnell,2056578,Mouser,70-IHLP3232DZER2R2M1,2.2μH 14.5A low profile high current IHLP inductor
